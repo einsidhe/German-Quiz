@@ -2,6 +2,7 @@
 
 declare -A dict
 
+dict["anstatt"]="instead of"
 dict["dadurch"]="because of"
 dict["damals"]="at that time"
 dict["daran"]="to that"
@@ -15,6 +16,7 @@ dict["hinuber"]="over"
 dict["hinunter"]="down from"
 dict["indem"]="while"
 dict["infolge"]="as a result"
+dict["obwohl"]="although"
 dict["wobei"]="where"
 dict["wodurch"]="by what"
 dict["wofur"]="what for"
@@ -24,6 +26,7 @@ dict["wonach"]="after what"
 dict["wovon"]="of what"
 dict["wovor"]="from what"
 dict["wozu"]="why"
+
 
 function quiz() {
     while true; do
